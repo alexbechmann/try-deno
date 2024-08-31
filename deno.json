@@ -1,0 +1,6 @@
+{
+  "workspace": ["./apps/api", "./libs/utils"],
+  "imports": {
+    "chalk": "npm:chalk@5"
+  }
+}

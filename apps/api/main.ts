@@ -1,8 +1,8 @@
 import { add, sayHello } from "@local/utils";
 
-sayHello();
-
 console.log("Starting API server...");
+
+sayHello();
 
 const result = add(1, 2);
 

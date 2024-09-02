@@ -2,7 +2,11 @@
   "name": "@local/utils",
   "version": "0.1.0",
   "exports": "./mod.ts",
+  "tasks": {
+    "codegen": "quicktype --version"
+  },
   "imports": {
-    "@std/path": "jsr:@std/path@^1.0.2"
+    "@std/path": "jsr:@std/path@^1.0.2",
+    "quicktype": "jsr:quicktype@^15.0.0"
   }
 }
